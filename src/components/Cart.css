@@ -1,0 +1,94 @@
+.skin {
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.658);
+  text-align: center;
+  display: flex;
+}
+
+.skin img {
+  max-width: 35%;
+  object-fit: cover;
+}
+
+.skin .skin-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 0 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.skin button {
+  margin: 0;
+  margin-right: 5px;
+  padding: 0;
+  border: 0;
+  width: 5%;
+  box-shadow: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+@media (min-width: 1550px) {
+  .skin p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .skin button {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .skin {
+    flex-wrap: wrap;
+  }
+
+  .skin button {
+    margin-right: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .skin img {
+    object-fit: fill;
+  }
+}
+
+@media (max-width: 800px) {
+  .skin {
+    margin: 10px;
+    flex-wrap: nowrap;
+  }
+  .skin img {
+    object-fit: cover;
+  }
+  .skin button {
+    width: 5%;
+    margin-right: 5px;
+    border: 0;
+  }
+  .skin .skin-info {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .skin .skin-info {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+}

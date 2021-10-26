@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.container {
+  display: flex;
+  font-family: 'Varela Round', sans-serif;
+}
+
+main {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2.5rem;
+  font-family: 'Merriweather', serif;
+}
+
+main > h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  text-align: center;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: linear-gradient(to top, #833ab4, #fd1d1d, #fcb045);
+}
+
+button,
+input {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid #833ab4;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.575);
+  background-color: white;
+  color: #833ab4;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.filters {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters img {
+  display: inline-block;
+  width: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input {
+  cursor: auto;
+  width: 160px;
+}
+
+input::placeholder {
+  color: #833ab4;
+  font-weight: normal;
+}
+
+.poro {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-mobile {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.cart-mobile button {
+  color: #fd1d1d;
+}
+
+@media (min-width: 1550px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .finish {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 801px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .finish {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+  }
+
+  aside {
+    display: none;
+    width: 100%;
+  }
+
+  .cart-mobile {
+    display: block;
+  }
+
+  .filters img {
+    width: 30px;
+  }
+
+  .filters button {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .filters input {
+    width: 100%;
+    margin: 0 40px;
+  }
+
+  .filters button {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 400px) {
+  main > h1 {
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+
+  .filters img {
+    width: 25px;
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "skins": [
+    {
+      "name": "Ahri",      
+      "description": "Ahri Estrela do Pop",
+      "category": "Mid",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_4.jpg"
+    },
+    {
+      "name": "Ahri",      
+      "description": "Ahri Guardiã Estelar",
+      "category": "Mid",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_14.jpg"
+    },
+    {
+      "name": "Amumu",      
+      "description": "Amumu Infernal",
+      "category": "Jg",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_17.jpg"
+    },
+    {
+      "name": "Amumu",      
+      "description": "Emumu",
+      "category": "Jg",
+      "price": 520,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_3.jpg"
+    },
+    {
+      "name": "Brand",      
+      "description": "Brand Criogênico",
+      "category": "Sup",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_3.jpg"
+    },  
+    {
+      "name": "Brand",      
+      "description": "Brand Dragão Eterno",
+      "category": "Sup",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_8.jpg"
+    }, 
+    {
+      "name": "Caitlyn",      
+      "description": "Caitlyn Caçadora de Cabeças",
+      "category": "Adc",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_6.jpg"
+    },
+    {
+      "name": "Caitlyn",      
+      "description": "Pulsefire Caitlyn",
+      "category": "Adc",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_11.jpg"
+    },
+    {
+      "name": "Draven",      
+      "description": "Draven Ceifador de Almas",
+      "category": "Adc",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_1.jpg"
+    },
+    {
+      "name": "Draven",     
+      "description": "Draven Gladiador",
+      "category": "Adc",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_2.jpg"
+    },
+    {
+      "name": "Garen",      
+      "description": "Deus-Rei Garen",
+      "category": "Top",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_13.jpg"
+    },
+    {
+      "name": "Garen",     
+      "description": "Garen Demacia Vice",
+      "category": "Top",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_14.jpg"
+    },
+    {
+      "name": "Jax",     
+      "description": "Jax Nêmesis",
+      "category": "Top",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_7.jpg"
+    },
+    {
+      "name": "Jax",     
+      "description": "Jax Oriental",
+      "category": "Top",
+      "price": 750,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jax_6.jpg"
+    },    
+    {
+      "name": "Lee Sin",     
+      "description": "Lee Sin Muay Thai",
+      "category": "Jg",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_4.jpg"
+    },  
+    {
+      "name": "Lee Sin",     
+      "description": "Lee Sin Punhos Divinos",
+      "category": "Jg",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_11.jpg"
+    }, 
+    {
+      "name": "Leona",     
+      "description": "Leona Eclipse Solar",
+      "category": "Sup",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_10.jpg"
+    }, 
+    {
+      "name": "Leona",     
+      "description": "Leona Solari de Ferro",
+      "category": "Sup",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_3.jpg"
+    }, 
+    {
+      "name": "Lux",     
+      "description": "Lux Academia de Batalha",
+      "category": "Mid",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_15.jpg"
+    }, 
+    {
+      "name": "Lux",     
+      "description": "Lux Elementalista",
+      "category": "Mid",
+      "price": 3250,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_7.jpg"
+    }, 
+    {
+      "name": "Soraka",      
+      "description": "Soraka Emissária da Luz",
+      "category": "Sup",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_15.jpg"
+    },
+    {
+      "name": "Soraka",     
+      "description": "Soraka Guardiã Estelar",
+      "category": "Sup",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_7.jpg"
+    },
+    {
+      "name": "Teemo",      
+      "description": "Abelheemo",
+      "category": "Top",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_18.jpg"
+    },
+    {
+      "name": "Teemo",      
+      "description": "Pequeno Capeteemo",
+      "category": "Top",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_14.jpg"
+    },
+    {
+      "name": "Tristana",      
+      "description": "Tristana Garota Foguete",
+      "category": "Adc",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_6.jpg"
+    },
+    {
+      "name": "Tristana",      
+      "description": "Tristana Treinadora de Dragões",
+      "category": "Adc",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_10.jpg"
+    },
+    {
+      "name": "Veigar",      
+      "description": "Veigar Chefão Final",
+      "category": "Mid",
+      "price": 1820,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_8.jpg"
+    },
+    {
+      "name": "Veigar",     
+      "description": "Veigar Sabugueiro",
+      "category": "Mid",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_13.jpg"
+    },
+    {
+      "name": "Vi",      
+      "description": "Vi Demoníaca",
+      "category": "Jg",
+      "price": 1350,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_4.jpg"
+    },
+    {
+      "name": "Vi",     
+      "description": "Vi Policial",
+      "category": "Jg",
+      "price": 975,
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_2.jpg"
+    }
+  ]
+}
